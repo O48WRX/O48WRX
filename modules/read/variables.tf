@@ -5,7 +5,7 @@ module "files" {
 variable "prefix" {
   description = "The used prefix to add to output"
   type        = string
-  default     = "read-"
+  default     = "read"
 }
 
 variable "content" {
