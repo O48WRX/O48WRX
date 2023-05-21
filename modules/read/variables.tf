@@ -1,5 +1,7 @@
 module "files" {
   source      = "../files"
+  name        = "files"
+  content     = var.content
 }
   
 variable "prefix" {
