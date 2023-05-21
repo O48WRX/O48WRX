@@ -7,3 +7,7 @@ module "files" {
 module "read" {
   source  = "./modules/read"
 }
+
+module "write" {
+  source = ".modules/write"
+}
