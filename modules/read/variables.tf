@@ -1,5 +1,11 @@
 module "files" {
-  source = "./modules/files"
+  source      = "./modules/files"
+}
+  
+variable "prefix" {
+  description = "The used prefix to add to output"
+  type        = string
+  default     = "read-"
 }
 
 variable "content" {
