@@ -1,3 +1,3 @@
-data "local_file" "search" {
-  filename = "../files/${var.searchedfile}"
+data "local_file" "generated_file" {
+  filename = var.file_path
 }
