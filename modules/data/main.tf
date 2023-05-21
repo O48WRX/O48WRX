@@ -1,3 +1,3 @@
-data "local_file" "foo" {
-  filename = "../files/"
+data "local_file" "search" {
+  filename = "../files/${var.searchedfile}"
 }
