@@ -9,5 +9,5 @@ module "read" {
 }
 
 module "write" {
-  source = ".modules/write"
+  source = "./modules/write"
 }
