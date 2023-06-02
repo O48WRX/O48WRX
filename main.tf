@@ -23,5 +23,5 @@ output "file_id" {
  }
   
 output "answers" {
-  value  = "${module.write.write_answer_1}"
+  value  = "${module.write.write_answer_1}, ${module.write.write_answer_2}, ${module.write.write_answer_3}, ${module.write.write_answer_4}, ${module.write.write_answer_5}"
 }
