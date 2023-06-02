@@ -9,8 +9,9 @@ module "read" {
 }
 
 module "write" {
-  source = "./modules/write"
-}
+   source = "./modules/write"
+   depends_on = [module.write]
+}  
   
 module "data" {
    source = "./modules/data"
