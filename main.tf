@@ -21,3 +21,7 @@ module "data" {
 output "file_id" {
    value = module.data.file_id
  }
+  
+output "answers" {
+  value  = "${module.write.write_answer_1}"
+}
